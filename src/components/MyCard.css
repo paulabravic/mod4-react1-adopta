@@ -12,3 +12,7 @@ img {
     width: 200px;
     height: 150px;
 }
+
+.card-descripcion {
+    text-align: center;
+}

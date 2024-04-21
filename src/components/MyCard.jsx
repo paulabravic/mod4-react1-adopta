@@ -7,7 +7,7 @@ export const MyCard = ({ nombre, url, descripcion, badge_nombre, badge_color}) =
             <div className="card">
                 <img src={url} alt="" />
                 <h2>{nombre}</h2>
-                <p>{descripcion}</p>
+                <p className="card-descripcion">{descripcion}</p>
                 <Tags badge_nombre={badge_nombre} badge_color={badge_color} />
             </div>
         </>
